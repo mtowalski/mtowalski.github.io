@@ -29,8 +29,7 @@ social:
 google_site_verification: google_meta_tag_verification 
 
 google_analytics:
-  id: ''              # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
+  id: ''              
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
     cache_path:       # the local PV cache data, friendly to visitors from GFW region
