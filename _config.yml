@@ -1,0 +1,124 @@
+theme: jekyll-theme-chirpy
+
+baseurl: ''
+
+lang: en
+
+content_lang: 'en'
+
+timezone: Europe/Warsaw
+
+title: Browser Research                          
+
+tagline:  
+
+description: >-
+  Output on my experiments with browser fuzzing
+
+url: 'https://mtowalski.github.io/'
+
+twitter:
+  username: mtowalski1           
+
+social:
+  name: Marcin Towalski 
+  links:
+    - https://twitter.com/mtowalski1 
+    - https://www.linkedin.com/in/mtowalski1
+
+google_site_verification: google_meta_tag_verification 
+
+google_analytics:
+  id: ''              # fill in your Google Analytics ID
+  # Google Analytics pageviews report settings
+  pv:
+    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+    cache_path:       # the local PV cache data, friendly to visitors from GFW region
+
+theme_mode:   dark
+
+img_cdn: ''
+
+avatar: https://media-exp1.licdn.com/dms/image/C5603AQH8_v4sEQxNOQ/profile-displayphoto-shrink_200_200/0/1517580441295?e=1632960000&v=beta&t=2z7ssIvbpcMknG5QZIWwTBQp6wTELqEpDCJAj0tYwrE
+
+toc: true
+
+#disqus:
+#  comments: false  # boolean type, the global switch for posts comments.
+#  shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+
+paginate: 10
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:   
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+
+defaults:
+  -
+    scope:
+      path: ''          
+      type: posts
+    values:
+      layout: post
+      comments: true  
+      toc: true       
+      permalink: /posts/:title/
+  -
+    scope:
+      path: _drafts
+    values:
+      comments: false
+  -
+    scope:
+      path: ''
+      type: tabs             
+    values:
+      layout: page
+      permalink: /:title/
+      dynamic_title: true    
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - '*.gem'
+  - '*.gemspec'
+  - tools
+  - docs
+  - README.md
+  - LICENSE
+  - gulpfile.js
+  - node_modules
+  - '*.json'
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+
+outdated: '-- Missing configuration options! --'
