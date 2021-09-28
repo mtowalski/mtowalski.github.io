@@ -9,6 +9,8 @@ order: 4
 
 ## **Google Chrome (Chromium)**
 
+#### + CVE-2021-30625 Chrome Selection API [CRBug](https://bugs.chromium.org/p/chromium/issues/detail?id=1237533) | TALOS: IN FUTURE
+#### + CVE-2021-30602 Chrome WebRTC [CRBug](https://bugs.chromium.org/p/chromium/issues/detail?id=1230767) | TALOS: IN FUTURE
 #### + CVE-2020-6492 Chrome WebGL [CRBug](https://bugs.chromium.org/p/chromium/issues/detail?id=1084616) | [TALOS-WriteUp](https://talosintelligence.com/vulnerability_reports/TALOS-2020-1085)
 #### + CVE-2020-6555 Chrome DrawElementsInstanced [CRBug](https://bugs.chromium.org/p/chromium/issues/detail?id=1105202) | [TALOS-WriteUp](https://talosintelligence.com/vulnerability_reports/TALOS-2020-1123)
 
