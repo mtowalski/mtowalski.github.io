@@ -11,7 +11,7 @@ order: 4
 
 #### + CVE-2021-38008 Chrome Media [CRBug](https://bugs.chromium.org/p/chromium/issues/detail?id=1263620) | TALOS: IN FUTURE
 #### + CVE-2021-37979 Chrome WebRTC [CRBug](https://bugs.chromium.org/p/chromium/issues/detail?id=1247260) | TALOS: IN FUTURE
-#### + CVE-2021-30625 Chrome Selection API [CRBug](https://bugs.chromium.org/p/chromium/issues/detail?id=1237533) | TALOS: IN FUTURE
+#### + CVE-2021-30625 Chrome Selection API [CRBug](https://bugs.chromium.org/p/chromium/issues/detail?id=1237533) | [TALOS-WriteUp](https://talosintelligence.com/vulnerability_reports/TALOS-2021-1352)
 #### + CVE-2021-30602 Chrome WebRTC [CRBug](https://bugs.chromium.org/p/chromium/issues/detail?id=1230767) | [TALOS-WriteUp](https://talosintelligence.com/vulnerability_reports/TALOS-2021-1348)
 #### + CVE-2020-6492 Chrome WebGL [CRBug](https://bugs.chromium.org/p/chromium/issues/detail?id=1084616) | [TALOS-WriteUp](https://talosintelligence.com/vulnerability_reports/TALOS-2020-1085)
 #### + CVE-2020-6555 Chrome DrawElementsInstanced [CRBug](https://bugs.chromium.org/p/chromium/issues/detail?id=1105202) | [TALOS-WriteUp](https://talosintelligence.com/vulnerability_reports/TALOS-2020-1123)
